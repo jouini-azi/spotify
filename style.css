@@ -1,0 +1,126 @@
+*,
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 30px;
+    padding: 25px;
+    align-items: center;
+    z-index: -1;
+    position: relative;
+}
+
+.nav-bar span {
+    display: inline-block;
+    color: white;
+    margin-right: 40px;
+}
+
+span a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar div h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+}
+
+.img-1 {
+    background-image: url('blue_img_spotify.webp');
+    width: 100%;
+    height: 100vh;
+}
+
+.do_it {
+    font-size: 150px;
+}
+
+.listen {
+    text-align: center;
+    color: rgb(19, 160, 0);
+}
+
+.class-bouton {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.bouton {
+    background: rgb(19, 160, 0);
+    color: rgb(60, 60, 201);
+    padding-top: 50px;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 25px;
+}
+
+.the-end-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: black;
+    width: 100%;
+    height: 40vh;
+    padding-top: 80px;
+}
+
+.the-end-bar a {
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+*/
+    color: white;
+    margin-bottom: 25px;
+}
+
+.the-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.the-last {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 15vh;
+}
+
+.the-last a {
+    color: rgba(255, 255, 255, 0.363);
+}
+
+.the-last2 {
+    display: flex;
+}
+
+.the-last2 a {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.the-last2 p {
+    color: rgba(255, 255, 255, 0.363);
+    margin-left: 420px;
+}
+
+.the-usa {
+    display: inline-block;
+    padding-left: 93.4%;
+    color: rgba(255, 255, 255, 0.363);
+    padding-bottom: 5px;
+}
+
+.fabb {
+    background-color: white;
+    color: black;
+}
